@@ -1,0 +1,108 @@
+#maincontainer{
+    height: 680px;
+    width: 1500px;
+    background-color: darkred;
+margin: auto;
+display: flex;
+}
+
+#maincontainer2{
+    height: 500px;
+    width: 1300px;
+    background-image: url(back2.jpg);
+    background-size: cover;
+   align-self: center;
+    margin-left: 100px;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+#score{
+    height: 50px;
+    width: 140px;
+    background-color: goldenrod;
+    color: antiquewhite;
+    font-size: 2em;
+    font-family: Impact;
+    position: absolute;
+    left: 1330px;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#trialsleft{
+    height: 50px;
+    width: 140px;
+    background-color: goldenrod;
+    position: absolute;
+    margin: 15px;
+    padding: 6px;
+    border-radius: 5px;
+    display: none;
+}
+
+#ins{
+    bottom: 550px;
+    font-size: 2em;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: antiquewhite;
+    position: absolute;
+    left: 500px;
+}
+
+#startbut{
+    height: 40px;
+    width: 250px;
+    color: whitesmoke;
+    font-size: 30px;
+    background-color: darkorange;
+    border: solid 5px black;
+    border-radius: 3px;
+    position: absolute;
+    top: 620px;
+    left: 650px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#gameover{
+    height: 400px;
+    width: 700px;
+    background: linear-gradient(red,orange,yellow);
+    color: antiquewhite;
+    font-size: 4em;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    text-align: center;
+    display: none;
+    z-index: 3;
+}
+
+.life{
+    padding: 2px;
+}
+
+.fruit{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    height: 100px;
+    width: 100px;
+}
+
+#bombb{
+    display: none;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+
+
+maincontainer2 background-image{
+    z-index: 1;
+}
