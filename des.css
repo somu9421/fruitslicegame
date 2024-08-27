@@ -53,6 +53,19 @@ display: flex;
     left: 500px;
 }
 
+.circle {
+    height: 18px;
+    width: 18px;
+    border-radius: 18px;
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999; /* so that it stays on top of all other elements */
+    cursor: none;
+  }
+
 #startbut{
     height: 40px;
     width: 250px;
